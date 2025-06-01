@@ -1,3 +1,21 @@
+body {
+    background-color: #dcfafd;
+}
+
 #sideNav {
     background: linear-gradient(180deg, #00c6ff, #0072ff);
+}
+
+.my-name {
+    color: #0c2779 !important;
+    font-weight: bold;
+}
+
+.my-email {
+    color: #0c2779;
+}
+
+.my-email:hover {
+    color: #00c6ff !important;
+    text-decoration: underline;
 }
