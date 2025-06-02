@@ -28,3 +28,126 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
+.group title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Muli' , sans-serif;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.accordion-body .custom-link-pink {
+    color: #000000 !important;
+}
+
+.accordion-body .custom-link-pink:hover {
+    color: #f77ec0 !important;
+}
+
+.accordion-body a {
+    color: #ff81c6 !important;
+    text-decoration: none !important;
+}
+
+.accordion-body a:hover {
+    color: #da1581 !important;
+}
+
+a {
+    color:#000 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #f12495 !important;
+}
+
+.accordion-body .custom-link-blue {
+    color: #fffefe !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-blue:hover {
+    color:#000000 !important;
+}
+
+.accordion-body .custom-link-white {
+    color: #60cdff !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-white:hover {
+    color:hsl(0, 0%, 100%) !important;
+}
+
+.accordion-body .custom-link-black {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-black:hover {
+    color:hsl(0, 0%, 0%) !important;
+}
+
+.accordion-body .custom-link-gray {
+    color: #8a0371 !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-gray:hover {
+    color:hsl(0, 0%, 0%) !important;
+}
+
+.accordion-body .custom-link-green {
+    color: #7abaf7 !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-green:hover {
+    color:hsl(220, 87%, 45%) !important;
+}
+
+.accordion-body .custom-link-yellow {
+    color: #df0000 !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-yellow:hover {
+    color:hsl(19, 70%, 55%) !important;
+}
+
+.accordion-body .custom-link-purple {
+    color: #2901cd !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-purple:hover {
+    color:hsl(235, 87%, 62%) !important;
+}
+
+.accordion-body .custom-link-brown {
+    color: #6856af !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-brown:hover {
+    color:hsl(235, 100%, 84%) !important;
+}
+
+.accordion-body .custom-link-teal {
+    color: rgb(255, 125, 50) !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-teal:hover {
+    color:hsl(289, 43%, 51%) !important;
+}
+
+.accordion-body .custom-link-violet {
+    color: rgb(249, 255, 131) !important;
+    text-decoration: none !important;
+}
+
+.accordion-body .custom-link-violet:hover {
+    color:hsl(60, 100%, 50%) !important;
+}
