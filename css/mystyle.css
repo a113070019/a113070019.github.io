@@ -148,12 +148,27 @@ margin-top: 15px;
 }
 
 .text-primary-emphasis {
-    color: #2901cd !important;
-    text-decoration: none !important;
+    color: #f39191 !important;
+    text-decoration: underline !important;
+}
+
+.text-secondary {
+    color: #b2b2b2 !important;
+    text-decoration: underline !important;
 }
 
 .my-button-style {
     font-size: 22px;
     font-family: "Lobster" ,sans-serif;
     font-weight: bold;
+}
+
+.my-dlink {
+    color: #000;
+    text-decoration: none;
+}
+
+.text-info {
+    color: #f71a1a;
+    text-decoration: underline !important;
 }
