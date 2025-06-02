@@ -2,6 +2,12 @@
     font-family: 'Noto Sans Tc' , sans-serif;
 }
 
+.hightlight-text {
+    background-color: #f5f5f5 !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+}
+
 body {
     background-color: #dcfafd;
 }
@@ -148,11 +154,13 @@ margin-top: 15px;
 }
 
 .text-primary-emphasis {
+    font-size: 20px;
     color: #f39191 !important;
     text-decoration: underline !important;
 }
 
 .text-secondary {
+    font-size: 20px;
     color: #b2b2b2 !important;
     text-decoration: underline !important;
 }
@@ -169,6 +177,11 @@ margin-top: 15px;
 }
 
 .text-info {
+    font-size: 20px;
     color: #f71a1a;
     text-decoration: underline !important;
+}
+
+.link-danger {
+    font-size: 20px;
 }
