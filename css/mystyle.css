@@ -53,15 +53,6 @@ body {
     color: #da1581 !important;
 }
 
-a {
-    color:#000 !important;
-    text-decoration: none !important;
-}
-
-a:hover {
-    color: #f12495 !important;
-}
-
 .accordion-body .custom-link-blue {
     color: #fffefe !important;
     text-decoration: none !important;
@@ -152,27 +143,17 @@ a:hover {
     color:hsl(60, 100%, 50%) !important;
 }
 
-.my-link {
-    position: relative;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.my-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-    background-color: #007bff;
-    transition: width 0.3s ease;
-}
-
-.my-link:hover::after {
-    width: 100%;
-}
-
 .move-down {
 margin-top: 15px;
+}
+
+.text-primary-emphasis {
+    color: #2901cd !important;
+    text-decoration: none !important;
+}
+
+.my-button-style {
+    font-size: 22px;
+    font-family: "Loboster" sans-serif;
+    font-weight: bold;
 }
