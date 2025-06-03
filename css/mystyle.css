@@ -254,3 +254,16 @@ margin-top: 15px;
 .card-text {
     color: #000;
 }
+
+.small-carousel {
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.small-carousel img {
+  max-height: 350px;
+  object-fit: cover;
+}
