@@ -206,7 +206,7 @@ margin-top: 15px;
 
 .text-info {
     font-size: 20px;
-    color: #f71a1a;
+    color: #f71e1e;
     text-decoration: underline !important;
 }
 
@@ -249,4 +249,8 @@ margin-top: 15px;
 
 .fanfan {
     color: #9fe6f7;
+}
+
+.card-text {
+    color: #000;
 }
