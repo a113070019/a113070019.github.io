@@ -280,3 +280,15 @@ margin-top: 15px;
   border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+.card {
+  margin-bottom: 0 !important;
+}
+.card-body {
+  padding-bottom: 0;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
