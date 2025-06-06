@@ -185,25 +185,41 @@ margin-top: 15px;
 .text-primary-emphasis {
     font-size: 20px;
     color: #f39191 !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
+}
+
+.text-primary-emphasis:hover {
+    color: black !important;
 }
 
 .text-secondary {
     font-size: 20px;
     color: #b2b2b2 !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
+}
+
+.text-secondary:hover {
+    color: #000 !important;
+}
+
+.textA:hover {
+    color: #082d52 !important;
 }
 
 .textA {
     font-size: 20px;
     color: #000000 !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 .textB {
     font-size: 20px;
     color: #1bef3e !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
+}
+
+.textB:hover {
+    color: #205c14 !important;
 }
 
 .my-button-style {
@@ -220,7 +236,11 @@ margin-top: 15px;
 .text-info {
     font-size: 20px;
     color: #f71e1e;
-    text-decoration: underline !important;
+    text-decoration: none !important;
+}
+
+.text-info:hover {
+    color: #fd9833 !important;
 }
 
 .link-danger {
@@ -347,4 +367,12 @@ margin-top: 15px;
 .back-to-top.show {
   opacity: 1;
   visibility: visible;
+}
+
+.link-danger {
+    text-decoration: none;
+}
+
+.link-danger:hover{
+    color: #ed7b7b !important;
 }
