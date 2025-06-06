@@ -1,5 +1,16 @@
 .my-name {
-    font-family: 'Noto Sans Tc' , sans-serif;
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    font-size: 5.5rem;
+}
+
+.student-number {
+  font-size: 3rem;  
+  color: #6fdcfa;       
+  display: block;
+  margin-top: 0.4rem;     
+  font-weight: 500;    
+  letter-spacing: 0.5px; 
+  font-family: 'Playfair Display', 'Noto Serif TC', serif;
 }
 
 #about {
@@ -12,7 +23,9 @@
 }
 
 .student-id {
-    color: #9fd8e7;
+    font-size: 4.5rem;
+    color: #0f3ec9;
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 
 #about::before {
