@@ -62,6 +62,7 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
+
 .group title {
     font-size: 20px;
     font-weight: bold;
@@ -193,6 +194,18 @@ margin-top: 15px;
     text-decoration: underline !important;
 }
 
+.textA {
+    font-size: 20px;
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
+
+.textB {
+    font-size: 20px;
+    color: #1bef3e !important;
+    text-decoration: underline !important;
+}
+
 .my-button-style {
     font-size: 22px;
     font-family: "Lobster" ,sans-serif;
@@ -223,11 +236,6 @@ margin-top: 15px;
     display: inline-block;
 }
 
-
-.fanfan {
-    color: #9fe6f7;
-}
-
 .card-text {
     color: #000;
 }
@@ -248,14 +256,6 @@ margin-top: 15px;
   background-color: #000;
 }
 
-.portfolio-bg {
-  background-image: url(../assets/img/image26.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 60px 0;
-}
-
 .bg-overlay {
   position: absolute;
   top: 0;
@@ -264,10 +264,6 @@ margin-top: 15px;
   height: 100%;
   background: rgba(0,0,0,0.4);
   z-index: 1;
-}
-.resume-section-content {
-  z-index: 2;
-  position: relative;
 }
 
 .highlight-box {
@@ -293,4 +289,39 @@ margin-top: 15px;
 
 .text-primary {
     color: #140663 !important;
+}
+
+.album-image {
+  width: 60%;
+  height: 255px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#Contact {
+    position: relative; 
+    background-image: url(../assets/img/image33.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#Contact::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); 
+    z-index: 1;
+}
+
+#Contact .resume-section-content {
+    position: relative;
+    z-index: 2;
+}
+
+.social {
+    color: #9fe6f7 !important;
 }
