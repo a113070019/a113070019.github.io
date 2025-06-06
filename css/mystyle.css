@@ -291,13 +291,6 @@ margin-top: 15px;
     color: #140663 !important;
 }
 
-.album-image {
-  width: 60%;
-  height: 255px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
 #Contact {
     position: relative; 
     background-image: url(../assets/img/image33.jpg);
