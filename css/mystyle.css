@@ -281,6 +281,7 @@ margin-top: 15px;
 .small-carousel img {
   max-height: 600px;
   object-fit: cover;
+  position: relative;
 }
 
 .carousel-inner img {
